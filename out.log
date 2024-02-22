@@ -1,0 +1,71 @@
+2024-02-22 22:14:59.411 | ERROR    | __main__:nested:17 - What?!
+Traceback (most recent call last):
+
+  File "d:\programming\python\Python_Libraries\logger.py", line 19, in <module>
+    nested(0)
+    └ <function nested at 0x00000279135780E0>
+
+> File "d:\programming\python\Python_Libraries\logger.py", line 15, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x00000279110EA020>
+
+  File "d:\programming\python\Python_Libraries\logger.py", line 11, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2024-02-22 22:15:07.514 | ERROR    | __main__:nested:17 - What?!
+Traceback (most recent call last):
+
+  File "d:\programming\python\Python_Libraries\logger.py", line 19, in <module>
+    nested(0)
+    └ <function nested at 0x000001C14561C0E0>
+
+> File "d:\programming\python\Python_Libraries\logger.py", line 15, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x000001C14313A020>
+
+  File "d:\programming\python\Python_Libraries\logger.py", line 11, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2024-02-22 22:16:28.088 | ERROR    | __main__:nested:17 - What?!
+Traceback (most recent call last):
+
+  File "d:\programming\python\Python_Libraries\logger.py", line 19, in <module>
+    nested(0)
+    └ <function nested at 0x0000015FF4A5C0E0>
+
+> File "d:\programming\python\Python_Libraries\logger.py", line 15, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x0000015FF258A020>
+
+  File "d:\programming\python\Python_Libraries\logger.py", line 11, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2024-02-22 22:16:34.638 | ERROR    | __main__:nested:17 - What?!
+Traceback (most recent call last):
+
+  File "d:\programming\python\Python_Libraries\logger.py", line 19, in <module>
+    nested(0)
+    └ <function nested at 0x0000020F7D2EC0E0>
+
+> File "d:\programming\python\Python_Libraries\logger.py", line 15, in nested
+    func(5, 0)
+    └ <function func at 0x0000020F7AE9A020>
+
+  File "d:\programming\python\Python_Libraries\logger.py", line 11, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
