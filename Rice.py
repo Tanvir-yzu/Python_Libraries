@@ -1,12 +1,7 @@
-from time import sleep
-from urllib.request import urlopen
+import requests
 
-from rich.progress import wrap_file
+response = requests.get("https://candid-licorice-66df5c.netlify.app")
 
-response = urlopen("https://candid-licorice-66df5c.netlify.app/")
-size = int(response.headers["Content-Length"])
-
-with wrap_file(response, size) as file:
-    for line in file:
-        print(line.decode("utf-8"), end="")
-        sleep(0.1)
+# Now you can use the response object
+print(response.status_code)  # Print the status code of the response
+print(response.text)  # Print the content of the response
